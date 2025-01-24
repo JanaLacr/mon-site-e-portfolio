@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon e-portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body class="accueil"> 
+    <div id="conteneur">
+      <header>
+      </header>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a href="index.html" class="logo">Mon E-Portfolio</a>
+
+          <!-- Menu -->
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+          
+          <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À propos</a>
+              <ul class="submenu">
+                <li><a href="#qui-je-suis">Présentation</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#projetsfuturs">Projets futurs</a></li>
+              </ul>
+            </li>
+            <li><a href="experience.html">Expériences</a>
+              <ul class="submenu">
+                <li><a href="#pro">Professionnelle</a></li>
+                <li><a href="#projetsrealises">Projets réalisés</a></li>
+              </ul>
+            </li>
+            <li><a href="competences.html">Compétences</a>
+              <ul class="submenu">
+                <li><a href="#stat">Statistiques</a></li>
+                <li><a href="#outilsetlang">Outils et languages maitrisés</a></li>
+                <li><a href="#qualites">Qualités</a></li>
+              </ul>
+            </li>
+            <li><a href="loisirs.html">Loisirs</a>
+              <ul class="submenu">
+                <li><a href="#voyage">Voyage</a></li>
+                <li><a href="#patisserie">Patisserie</a></li>
+                <li><a href="#calligraphie">Calligraphie</a></li>
+              </ul>
+            </li>
+            <li><a href="cv.html">Mon CV</a></li>
+            <li><a href="mecontacter.html">Me contacter</a></li>
+          </ul>
+        </div>
+      </nav>
+                <br>
+		<h2> N'hesitez pas à me contacter si vous avez des questions ou des propositions !</h2>
+		<form action="https://formspree.io/f/movjvqkv" method="POST"> <!-- la balie form permet de déclarer un formulaire -->
+			<label for="nom"> Nom: </label>
+			<input type="text" id="nom" name="nom" placeholder="saisissez votre nom" required><!--le champs dans lequel on doit écrire ce qui est demandé-->
+			
+			<label for="prenom"> Prénom: </label> <!--etiquette-->
+			<input type="text" id="prenom" name="prenom" placeholder ="saisissez votre prénom" required>
+			
+			<label for="email"> E-mail: </label> <!--etiquette-->
+			<input type="email" id="email" name="email" placeholder="saisissez votre email" required>
+			
+			<label for="message"> Message :</label>
+			<textarea id="message" name="message" placeholder="saisissez votre message" required> </textarea> <!--Zone de texte-->
+			
+			<button type="submit"> Envoyer </button>
+			
+		</form> 
+                <br>
+                <h2> Vous pouvez également me contacter sur: </h2>
+                <div class="icons-container">
+                <a href= "https://www.linkedin.com/in/jana-laouchir-b54083258/" target="blank" class= "linkedin-icon">
+                    <img src="Img/linkedin.png" alt="Linkedin">
+                </a>
+                <a href="mailto:janalaouchr@gmail.com" target= "blank" class="email-icon">
+                    <img src="Img/email.png" alt="Email">
+                </a>
+                </div>
+               
+
+		</div>
+	</body>
+</html>
